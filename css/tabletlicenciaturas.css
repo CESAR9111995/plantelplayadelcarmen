@@ -1,0 +1,1057 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+}
+/************************seccion administracion***************/
+#logo{
+	width:12%;
+	height:100px;
+	float:left;
+}
+ #banneradm{
+	 margin-top:-20px;
+	width:100%;
+	height:500px;
+	text-align:center;
+	background-image:url(../img/conference-room-768441__340.jpg);
+	background-attachment:scroll;
+	background-position:center center;
+	background-size:100% 100%;
+}#fondonegroadm{
+	width:100%;
+	height:500px;
+	transition:2s;
+	background-color:rgba(0,0,0,0.3);
+} #fondonegroadm:hover{
+	width:100%;
+	height:500px;
+	transition:2s;
+	background-color:rgba(0,0,0,0.8);
+} #banneradm #fondonegroadm h1{
+	padding-top:200px;
+	text-align:center;
+	color:#FFF;
+	font-size:30px;
+} 	#planestudios{
+		border-radius:5px;
+		margin-left:20px;
+		font-size:24px;
+		text-align:center;
+		text-decoration:none;
+		background-color:#F60;
+		color:#FFF;
+		width:auto;
+		height:auto;}#planestudios:hover{
+			background-color:#FFF;
+		color:#F60;}#regresar{
+		border-radius:5px;
+		margin-left:20px;
+		font-size:24px;
+		text-align:center;
+		text-decoration:none;
+		border-color:#F60;
+		color:#FFF;
+		width:auto;
+		height:auto;}#regresar:hover{
+			background-color:#FFF;
+		color:#F60;} #personasentada{
+			width:30%;
+			height:400px;
+			margin-left:-68%;
+			margin-top:10px;
+			position:absolute;
+			float:left;
+		}
+		
+		
+#contadmin{
+	width:100%;
+	height:1000px;
+	background-color:#F60;
+		-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+}
+#personaadm{
+	width:40%;
+	height:900px;
+	margin-top:100px;
+	margin-left:-50px;
+	position:absolute;
+	z-index:2;
+	padding-top:50px;
+	float:left;
+} #secdescripcion{
+	width:60%;
+	color:#FFF;
+	height:auto;
+	margin-right:7%;
+	font-size:18px;
+	text-align:justify;
+	float:right;
+	}
+	 #perfilingreso{
+		width:60%;
+			height:auto;
+			position:absolute;
+			background-color:#FFF;
+			margin-left:33%;
+			margin-top:270px;
+				font-size:12px;
+			-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+	} #perfilingreso h1{
+		color:#F60;
+		margin-left:20px;
+	} #perfilingreso p{
+		width:80%;
+		text-align:justify;
+		margin-left:10%;
+	} #perfilingreso {
+  animation-duration: 2s;
+  animation-name: slidein;
+}	
+	#perfilegreso{
+		width:60%;
+			height:auto;
+			position:absolute;
+			background-color:#FFF;
+			margin-left:33%;
+			margin-top:510px;
+			font-size:12px;
+			-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+	} #perfilegreso h1{
+		color:#F60;
+		margin-left:20px;
+	} #perfilegreso p{
+		width:80%;
+		text-align:justify;
+		margin-left:10%;
+		font-size:18px;
+	}  #perfilegreso {
+  animation-duration: 2.5s;
+  animation-name: slidein;
+}
+	
+	#campolaboral{
+		width:60%;
+			height:auto;
+			position:absolute;
+			background-color:#FFF;
+			margin-left:33%;
+			margin-top:680px;
+			font-size:12px;
+			-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+	} #campolaboral h1{
+		color:#F60;
+		margin-left:20px;
+	} #campolaboral p{
+		width:80%;
+		text-align:justify;
+		margin-left:10%;
+		font-size:18px;
+	}  #campolaboral {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 60%
+  }
+
+  to {
+    margin-left:33%;
+    width: 60%;
+  }
+}
+/************************seccion contaduria***************/
+ #bannercont{
+	 margin-top:-20px;
+	width:100%;
+	height:500px;
+	text-align:center;
+	background-image:url(../img/beard-2286440__340.jpg);
+	background-attachment:scroll;
+	background-position:center center;
+	background-size:100% 100%;
+} #fondonegrocont{
+	width:100%;
+	height:500px;
+	transition:2s;
+	background-color:rgba(0,0,0,0.3);
+} #fondonegrocont:hover{
+	width:100%;
+	height:500px;
+	transition:2s;
+	background-color:rgba(0,0,0,0.8);
+} #bannercont #fondonegrocont h1{
+	padding-top:200px;
+	text-align:center;
+	color:#FFF;
+	font-size:30px;
+} #contcont{
+	width:100%;
+	height:1000px;
+	background-color:#06C;
+		-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+} #personacont{
+	width:40%;
+	height:900px;
+	margin-top:100px;
+	margin-left:-50px;
+	position:absolute;
+	z-index:2;
+	padding-top:50px;
+	float:left;
+}
+
+#perfilingreso1{
+		width:60%;
+			height:auto;
+			position:absolute;
+			background-color:#FFF;
+			margin-left:33%;
+			font-size:12px;
+			margin-top:270px;
+			-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+	} #perfilingreso1 h1{
+		color:#06C;
+		margin-left:20px;
+	} #perfilingreso1 p{
+		width:80%;
+		text-align:justify;
+		margin-left:10%;
+		font-size:18px;
+	} #perfilingreso1 {
+  animation-duration: 2s;
+  animation-name: slidein;
+}	
+	#perfilegreso1{
+		width:60%;
+			height:auto;
+			position:absolute;
+			background-color:#FFF;
+			margin-left:33%;
+			font-size:12px;
+			margin-top:480px;
+			-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+	} #perfilegreso1 h1{
+		color:#06C;
+		margin-left:20px;
+	} #perfilegreso1 p{
+		width:80%;
+		text-align:justify;
+		margin-left:10%;
+		font-size:18px;
+	}  #perfilegreso1 {
+  animation-duration: 2.5s;
+  animation-name: slidein;
+}
+	
+	#campolaboral1{
+		width:60%;
+			height:auto;
+			position:absolute;
+			background-color:#FFF;
+			margin-left:33%;
+			font-size:12px;
+			margin-top:730px;
+			-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+	} #campolaboral1 h1{
+		color:#06C;
+		margin-left:20px;
+	} #campolaboral1 p{
+		width:80%;
+		text-align:justify;
+		margin-left:10%;
+		font-size:18px;
+	}  #campolaboral1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 60%
+  }
+
+  to {
+    margin-left:33%;
+    width: 60%;
+  }
+}
+/******************************** seccion psicologia*******/
+#bannerpsic{
+	 margin-top:-20px;
+	width:100%;
+	height:500px;
+	text-align:center;
+	background-image:url(../img/psychology-2647941__340.jpg);
+	background-attachment:scroll;
+	background-position:center center;
+	background-size:100% 100%;
+} #fondonegropsic{
+	width:100%;
+	height:500px;
+	transition:2s;
+	background-color:rgba(0,0,0,0.3);
+} #fondonegropsic:hover{
+	width:100%;
+	height:500px;
+	transition:2s;
+	background-color:rgba(0,0,0,0.8);
+} #bannerpsic #fondonegropsic h1{
+	padding-top:200px;
+	text-align:center;
+	color:#FFF;
+	font-size:30px;
+}
+
+ #contpsic{
+	width:100%;
+	height:1000px;
+	background-color:#F60;
+		-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+}
+
+#perfilingreso3{
+		width:60%;
+			height:auto;
+			position:absolute;
+			background-color:#FFF;
+			margin-left:33%;
+			font-size:12px;
+			margin-top:270px;
+			-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+	} #perfilingreso3 h1{
+		color:#F60;
+		margin-left:20px;
+	} #perfilingreso3 p{
+		width:80%;
+		text-align:justify;
+		margin-left:10%;
+		font-size:18px;
+	} #perfilingreso3 {
+  animation-duration: 2s;
+  animation-name: slidein;
+}	
+	#perfilegreso3{
+		width:60%;
+			height:auto;
+			position:absolute;
+			background-color:#FFF;
+			margin-left:33%;
+			font-size:12px;
+			margin-top:470px;
+			-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+	} #perfilegreso3 h1{
+		color:#F60;
+		margin-left:20px;
+	} #perfilegreso3 p{
+		width:80%;
+		text-align:justify;
+		margin-left:10%;
+		font-size:18px;
+	}  #perfilegreso3 {
+  animation-duration: 2.5s;
+  animation-name: slidein;
+} #personapsic{
+	width:40%;
+	height:900px;
+	margin-top:100px;
+	margin-left:-50px;
+	position:absolute;
+	z-index:2;
+	padding-top:50px;
+	float:left;
+}
+	
+	#campolaboral3{
+		width:60%;
+			height:auto;
+			position:absolute;
+			background-color:#FFF;
+			margin-left:33%;
+			font-size:12px;
+			margin-top:750px;
+			-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+	} #campolaboral3 h1{
+		color:#F60;
+		margin-left:20px;
+	} #campolaboral3 p{
+		width:80%;
+		text-align:justify;
+		margin-left:10%;
+		font-size:18px;
+	}  #campolaboral3 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 60%
+  }
+
+  to {
+    margin-left:33%;
+    width: 60%;
+  }
+}
+/******************************** seccion derecho*******/
+#bannerder{
+	 margin-top:-20px;
+	width:100%;
+	height:500px;
+	text-align:center;
+	background-image:url(../img/courtroom-898931__340.jpg);
+	background-attachment:scroll;
+	background-position:center center;
+	background-size:100% 100%;
+} #fondonegroder{
+	width:100%;
+	height:500px;
+	transition:2s;
+	background-color:rgba(0,0,0,0.3);
+} #fondonegroder:hover{
+	width:100%;
+	height:500px;
+	transition:2s;
+	background-color:rgba(0,0,0,0.8);
+} #bannerder #fondonegroder h1{
+	padding-top:200px;
+	text-align:center;
+	color:#FFF;
+	font-size:30px;
+}
+
+ #contder{
+	width:100%;
+	height:1000px;
+	background-color:#06C;
+		-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+} #personader{
+	width:40%;
+	height:900px;
+	margin-top:100px;
+	margin-left:-50px;
+	position:absolute;
+	z-index:2;
+	padding-top:50px;
+	float:left;
+}
+
+#perfilingreso4{
+		width:60%;
+			height:auto;
+			position:absolute;
+			background-color:#FFF;
+			margin-left:33%;
+			font-size:12px;
+			margin-top:270px;
+			-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+	} #perfilingreso4 h1{
+		color:#F60;
+		margin-left:20px;
+	} #perfilingreso4 p{
+		width:80%;
+		text-align:justify;
+		margin-left:10%;
+		font-size:18px;
+	} #perfilingreso4 {
+  animation-duration: 2s;
+  animation-name: slidein;
+}	
+	#perfilegreso4{
+		width:60%;
+			height:auto;
+			position:absolute;
+			background-color:#FFF;
+			margin-left:33%;
+			margin-top:450px;
+			-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+	} #perfilegreso4 h1{
+		color:#F60;
+		margin-left:20px;
+	} #perfilegreso4 p{
+		width:80%;
+		text-align:justify;
+		margin-left:10%;
+		font-size:18px;
+	}  #perfilegreso4 {
+  animation-duration: 2.5s;
+  animation-name: slidein;
+}
+	
+	#campolaboral4{
+		width:60%;
+			height:auto;
+			position:absolute;
+			background-color:#FFF;
+			margin-left:33%;
+			font-size:12px;
+			margin-top:730px;
+			-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+	} #campolaboral4 h1{
+		color:#F60;
+		margin-left:20px;
+	} #campolaboral4 p{
+		width:80%;
+		text-align:justify;
+		margin-left:10%;
+		font-size:18px;
+	}  #campolaboral4 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 60%
+  }
+
+  to {
+    margin-left:33%;
+    width: 60%;
+  }
+}
+
+
+/******************************** seccion Pedagogia*******/
+#bannerped{
+	 margin-top:-20px;
+	width:100%;
+	height:500px;
+	text-align:center;
+	background-image:url(../img/evita-estos-comentarios-con-los-maesrtos-de-tu-hija-.jpg);
+	background-attachment:scroll;
+	background-position:center center;
+	background-size:100% 100%;
+} #fondonegroped{
+	width:100%;
+	height:500px;
+	transition:2s;
+	background-color:rgba(0,0,0,0.3);
+} #fondonegroped:hover{
+	width:100%;
+	height:500px;
+	transition:2s;
+	background-color:rgba(0,0,0,0.8);
+} #bannerped #fondonegroped h1{
+	padding-top:200px;
+	text-align:center;
+	color:#FFF;
+	font-size:30px;
+}
+
+ #contped{
+	width:100%;
+	height:1000px;
+	background-color:#F60;
+		-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+}
+
+#perfilingreso5{
+		width:60%;
+			height:auto;
+			position:absolute;
+			background-color:#FFF;
+			margin-left:33%;
+			font-size:12px;
+			margin-top:270px;
+			-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+	} #perfilingreso5 h1{
+		color:#F60;
+		margin-left:20px;
+	} #perfilingreso5 p{
+		width:80%;
+		text-align:justify;
+		margin-left:10%;
+		font-size:18px;
+	} #perfilingreso5 {
+  animation-duration: 2s;
+  animation-name: slidein;
+}	
+	#perfilegreso5{
+		width:60%;
+			height:auto;
+			position:absolute;
+			background-color:#FFF;
+			margin-left:33%;
+			font-size:12px;
+			margin-top:490px;
+			-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+	} #perfilegreso5 h1{
+		color:#F60;
+		margin-left:20px;
+	} #perfilegreso5 p{
+		width:80%;
+		text-align:justify;
+		margin-left:10%;
+		font-size:18px;
+	}  #perfilegreso5 {
+  animation-duration: 2.5s;
+  animation-name: slidein;
+}  #personaped{
+	width:40%;
+	height:900px;
+	margin-top:100px;
+	margin-left:-50px;
+	position:absolute;
+	z-index:2;
+	padding-top:50px;
+	float:left;
+}
+	
+	#campolaboral5{
+		width:60%;
+			height:auto;
+			position:absolute;
+			background-color:#FFF;
+			margin-left:33%;
+			font-size:12px;
+			margin-top:700px;
+			-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+	} #campolaboral5 h1{
+		color:#F60;
+		margin-left:20px;
+	} #campolaboral5 p{
+		width:80%;
+		text-align:justify;
+		margin-left:10%;
+		font-size:18px;
+	}  #campolaboral5 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 60%
+  }
+
+  to {
+    margin-left:33%;
+    width: 60%;
+  }
+}
+/******************************** seccion sistemas*******/
+#bannersis{
+	 margin-top:-20px;
+	width:100%;
+	height:500px;
+	text-align:center;
+	background-image:url(../img/work-731198__340.jpg);
+	background-attachment:scroll;
+	background-position:center center;
+	background-size:100% 100%;
+} #fondonegrosis{
+	width:100%;
+	height:500px;
+	transition:2s;
+	background-color:rgba(0,0,0,0.3);
+} #fondonegrosis:hover{
+	width:100%;
+	height:500px;
+	transition:2s;
+	background-color:rgba(0,0,0,0.8);
+} #bannersis #fondonegrosis h1{
+	padding-top:200px;
+	text-align:center;
+	color:#FFF;
+	font-size:30px;
+}
+
+ #contsis{
+	width:100%;
+	height:1000px;
+	background-color:#06C;
+		-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+}
+
+#perfilingreso6{
+		width:60%;
+			height:auto;
+			position:absolute;
+			background-color:#FFF;
+			margin-left:33%;
+			font-size:12px;
+			margin-top:280px;
+			-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+	} #perfilingreso6 h1{
+		color:#F60;
+		margin-left:20px;
+	} #perfilingreso6 p{
+		width:80%;
+		text-align:justify;
+		margin-left:10%;
+		font-size:18px;
+	} #perfilingreso6 {
+  animation-duration: 2s;
+  animation-name: slidein;
+}	
+	#perfilegreso6{
+		width:60%;
+			height:auto;
+			position:absolute;
+			background-color:#FFF;
+			margin-left:33%;
+			font-size:12px;
+			margin-top:550px;
+			-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+	} #perfilegreso6 h1{
+		color:#F60;
+		margin-left:20px;
+	} #perfilegreso6 p{
+		width:80%;
+		text-align:justify;
+		margin-left:10%;
+		font-size:18px;
+	}  #perfilegreso6 {
+  animation-duration: 2.5s;
+  animation-name: slidein;
+}  #personasis{
+	width:40%;
+	height:900px;
+	margin-top:100px;
+	margin-left:-50px;
+	position:absolute;
+	z-index:2;
+	padding-top:50px;
+	float:left;
+}
+	
+	#campolaboral6{
+		width:60%;
+			height:auto;
+			position:absolute;
+			background-color:#FFF;
+			margin-left:33%;
+			font-size:12px;
+			margin-top:840px;
+			-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+	} #campolaboral6 h1{
+		color:#F60;
+		margin-left:20px;
+	} #campolaboral6 p{
+		width:80%;
+		text-align:justify;
+		margin-left:10%;
+		font-size:18px;
+	}  #campolaboral6 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 60%
+  }
+
+  to {
+    margin-left:33%;
+    width: 60%;
+  }
+}
+
+/******************************** seccion criminalistica*******/
+#bannercrim{
+	 margin-top:-20px;
+	width:100%;
+	height:500px;
+	text-align:center;
+	background-image:url(../img/police-862341__340.jpg);
+	background-attachment:scroll;
+	background-position:center center;
+	background-size:100% 100%;
+} #fondonegrocrim{
+	width:100%;
+	height:500px;
+	transition:2s;
+	background-color:rgba(0,0,0,0.3);
+} #fondonegrocrim:hover{
+	width:100%;
+	height:500px;
+	transition:2s;
+	background-color:rgba(0,0,0,0.8);
+} #bannercrim #fondonegrocrim h1{
+	padding-top:200px;
+	text-align:center;
+	color:#FFF;
+	font-size:30px;
+}
+
+ #contcrim{
+	width:100%;
+	height:1000px;
+	background-color:#F60;
+		-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+}
+
+#perfilingreso7{
+		width:60%;
+			height:auto;
+			position:absolute;
+			background-color:#FFF;
+			margin-left:33%;
+			font-size:12px;
+			margin-top:270px;
+			-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+	} #perfilingreso7 h1{
+		color:#F60;
+		margin-left:20px;
+	} #perfilingreso7 p{
+		width:80%;
+		text-align:justify;
+		margin-left:10%;
+		font-size:18px;
+	} #perfilingreso7 {
+  animation-duration: 2s;
+  animation-name: slidein;
+}	
+	#perfilegreso7{
+		width:60%;
+			height:auto;
+			position:absolute;
+			background-color:#FFF;
+			margin-left:33%;
+			font-size:12px;
+			margin-top:480px;
+			-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+	} #perfilegreso7 h1{
+		color:#F60;
+		margin-left:20px;
+	} #perfilegreso7 p{
+		width:80%;
+		text-align:justify;
+		margin-left:10%;
+		font-size:18px;
+	}  #perfilegreso7 {
+  animation-duration: 2.5s;
+  animation-name: slidein;
+}  #personacrim{
+	width:40%;
+	height:900px;
+	margin-top:100px;
+	margin-left:-50px;
+	position:absolute;
+	z-index:2;
+	padding-top:50px;
+	float:left;
+}
+	
+	#campolaboral7{
+		width:60%;
+			height:auto;
+			position:absolute;
+			background-color:#FFF;
+			margin-left:33%;
+			font-size:12px;
+			margin-top:740px;
+			-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+	} #campolaboral7 h1{
+		color:#F60;
+		margin-left:20px;
+	} #campolaboral7 p{
+		width:80%;
+		text-align:justify;
+		margin-left:10%;
+		font-size:18px;
+	}  #campolaboral7 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 60%
+  }
+
+  to {
+    margin-left:33%;
+    width: 60%;
+  }
+}
+
+
+/******************************** seccion mercadotecnia*******/
+#bannermerc{
+	 margin-top:-20px;
+	width:100%;
+	height:500px;
+	text-align:center;
+	background-image:url(../img/digital-marketing-1433427__340.jpg);
+	background-attachment:scroll;
+	background-position:center center;
+	background-size:100% 100%;
+} #fondonegromerc{
+	width:100%;
+	height:500px;
+	transition:2s;
+	background-color:rgba(0,0,0,0.3);
+} #fondonegromerc:hover{
+	width:100%;
+	height:500px;
+	transition:2s;
+	background-color:rgba(0,0,0,0.8);
+} #bannermerc #fondonegromerc h1{
+	padding-top:200px;
+	text-align:center;
+	color:#FFF;
+	font-size:30px;
+}
+
+ #contmerc{
+	width:100%;
+	height:1000px;
+	background-color:#06C;
+		-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+}
+
+#perfilingreso8{
+		width:60%;
+			height:auto;
+			position:absolute;
+			background-color:#FFF;
+			margin-left:33%;
+			font-size:12px;
+			margin-top:270px;
+			-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+	} #perfilingreso8 h1{
+		color:#F60;
+		margin-left:20px;
+	} #perfilingreso8 p{
+		width:80%;
+		text-align:justify;
+		margin-left:10%;
+		font-size:12px;
+	} #perfilingreso8 {
+  animation-duration: 2s;
+  animation-name: slidein;
+}	
+	#perfilegreso8{
+		width:60%;
+			height:auto;
+			position:absolute;
+			background-color:#FFF;
+			margin-left:33%;
+			font-size:12px;
+			margin-top:490px;
+			-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+	} #perfilegreso8 h1{
+		color:#F60;
+		margin-left:20px;
+	} #perfilegreso8 p{
+		width:80%;
+		text-align:justify;
+		margin-left:10%;
+		font-size:12px;
+	}  #perfilegreso8 {
+  animation-duration: 2.5s;
+  animation-name: slidein;
+}  #personamerc{
+	width:40%;
+	height:900px;
+	margin-top:100px;
+	margin-left:-50px;
+	position:absolute;
+	z-index:2;
+	padding-top:50px;
+	float:left;
+}
+	
+	#campolaboral8{
+		width:60%;
+			height:auto;
+			position:absolute;
+			background-color:#FFF;
+			margin-left:33%;
+			font-size:12px;
+			margin-top:750px;
+			-webkit-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 10px -1px rgba(0,0,0,0.75);
+	} #campolaboral8 h1{
+		color:#F60;
+		margin-left:20px;
+	} #campolaboral8 p{
+		width:80%;
+		text-align:justify;
+		margin-left:10%;
+		font-size:12px;
+	}  #campolaboral8 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 60%
+  }
+
+  to {
+    margin-left:33%;
+    width: 60%;
+  }
+}

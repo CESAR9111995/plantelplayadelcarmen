@@ -1,0 +1,1247 @@
+@charset "utf-8";
+/* CSS Document */
+/*********************************************** general***************************/
+body{
+	margin:0px;
+	padding:0px;
+	font-family: 'Mukta', sans-serif;	
+}
+header{
+	margin-top:0px;
+	width:100%;
+	height:80px;
+	position:fixed;
+	z-index:3;
+	font-family: 'Raleway', sans-serif;
+	
+	-webkit-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 33%, rgba(255,255,255,1) 33%, rgba(14,32,153,1) 33%, rgba(8,19,148,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(33%, rgba(255,255,255,1)), color-stop(33%, rgba(255,255,255,1)), color-stop(33%, rgba(14,32,153,1)), color-stop(100%, rgba(8,19,148,1)));
+background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 33%, rgba(255,255,255,1) 33%, rgba(14,32,153,1) 33%, rgba(8,19,148,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 33%, rgba(255,255,255,1) 33%, rgba(14,32,153,1) 33%, rgba(8,19,148,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 33%, rgba(255,255,255,1) 33%, rgba(14,32,153,1) 33%, rgba(8,19,148,1) 100%);
+background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 33%, rgba(255,255,255,1) 33%, rgba(14,32,153,1) 33%, rgba(8,19,148,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#081394', GradientType=1 );
+
+	} .logoprincipal{
+		margin-top:20px;
+		width:10%;
+		height:50px;
+	}
+	   header label{
+			width:30px;
+		height:30px;
+		padding:10px;
+		   display:block;
+		   margin-top:-45px;
+		margin-left:85%;
+	   } .titulo{
+	font-size:15px;
+	margin-top:-20px;
+	margin-left:150px;
+	color:#FFF;
+}
+	    .menu{
+		   position:absolute;
+		   background-color:#333;
+		   width:70%;
+		   margin-left:100%;
+		   transition:all 0.5s;
+	   } .menu ul{
+		   margin:0;
+			list-style:none;
+			padding:0;
+			justify-content: flex-end;
+		   flex-direction: column;
+	   } .menu li{
+		   border-top:1px solid #FFF;
+	   } .menu li a{
+			display:block;
+			padding: 15px 20px;
+			color:#FFF;
+			text-decoration:none;
+		}.menu li:hover{
+			background-color:rgba(255,102,0,1);
+		}
+	    #icono{
+	 width:100%;
+	  margin-left:70%;
+		 display:block;
+ } #icono:hover{
+	 display:block;
+	 cursor:pointer;
+	 background-color:#FFF;
+	 border-radius:100%;
+	 } 
+	 #btn-menu{
+		 display:none;
+	 }
+	 #btn-menu:checked ~ .menu{
+		 margin-left:30%;
+		 }
+	 
+	 
+ 
+		 
+	
+	.slider{
+	 margin:auto;
+	 margin-top:-20px;
+	 width:100%;
+	 height:300px;
+	 overflow:hidden;
+ } .slider ul{
+	 padding:0;
+	 display:flex;
+	 width:400%;
+	 animation: cambio 20s infinite;
+	 animation-direction:alternate;
+	 animation-timing-function:ease-out;
+ } .slider li{
+	 width:100%;
+	 list-style:none;
+ } .slider img{
+	 width:100%;
+	 height:550px;
+ }
+ 
+ @keyframes cambio{
+	 0%{margin-left:0;}
+	 20%{margin-left:0;}
+	 
+	 25%{margin-left:-100%;}
+	 45%{margin-left:-100%;}
+	 
+	 50%{margin-left:-200%;}
+	 70%{margin-left:-200%;}
+	 
+	 75%{margin-left:-300%;}
+	 100%{margin-left:-300%;}
+	 
+	 }
+ 
+  #redes{
+		width:8%;
+		z-index:3;
+		height:auto;
+		margin-left:92%;
+		margin-top:-200px;
+		background-color:rgba(204,204,204,0.5);
+		position:fixed;
+		text-align:center;
+		-webkit-box-shadow: -6px 7px 11px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -6px 7px 11px 0px rgba(0,0,0,0.75);
+box-shadow: -6px 7px 11px 0px rgba(0,0,0,0.75);
+	} #redes:hover{
+		background-color:#FFF;
+	}
+	 #facebook{
+		width:100%;
+		height:40px;
+	} #twiter{
+		width:100%;
+			height:40px;
+	} #insta{
+		width:100%;
+			height:40px;
+	} 
+	 aside{
+		 display:none;
+		 width:100%;
+		 background-color:#000;
+		 height:300px;
+		 margin-top:20px;
+		 } 
+		 
+		 marquee{
+			 display:none;
+			 width:100%;
+			 height:300px;
+		 } marque img{
+			  display:none;
+			 width:30%;
+			 height:300px;
+		 }
+ 
+	 section{
+		width:100%;
+		height:auto;
+		background-color:#FFF;
+		margin-top:0px;
+	}
+	
+	
+	footer{
+		width:100%;
+		height:auto;
+		padding-top:5px;
+	
+	background: rgba(13,8,163,1);
+background: -moz-linear-gradient(45deg, rgba(13,8,163,1) 1%, rgba(10,30,112,1) 1%, rgba(6,14,161,1) 36%, rgba(15,28,214,1) 60%, rgba(15,28,214,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(1%, rgba(13,8,163,1)), color-stop(1%, rgba(10,30,112,1)), color-stop(36%, rgba(6,14,161,1)), color-stop(60%, rgba(15,28,214,1)), color-stop(100%, rgba(15,28,214,1)));
+background: -webkit-linear-gradient(45deg, rgba(13,8,163,1) 1%, rgba(10,30,112,1) 1%, rgba(6,14,161,1) 36%, rgba(15,28,214,1) 60%, rgba(15,28,214,1) 100%);
+background: -o-linear-gradient(45deg, rgba(13,8,163,1) 1%, rgba(10,30,112,1) 1%, rgba(6,14,161,1) 36%, rgba(15,28,214,1) 60%, rgba(15,28,214,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(13,8,163,1) 1%, rgba(10,30,112,1) 1%, rgba(6,14,161,1) 36%, rgba(15,28,214,1) 60%, rgba(15,28,214,1) 100%);
+background: linear-gradient(45deg, rgba(13,8,163,1) 1%, rgba(10,30,112,1) 1%, rgba(6,14,161,1) 36%, rgba(15,28,214,1) 60%, rgba(15,28,214,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d08a3', endColorstr='#0f1cd6', GradientType=1 );
+
+	} #menufooter{
+		width:20%;
+		height:auto;
+		margin-left:30px;
+		
+	} #menufooter{
+		text-decoration:none;
+	}
+	#menufooter a{
+		text-decoration:none;
+		padding:0px 0px;
+		display:block;
+		font-size:15px;
+		color:#FFF;
+	}  #menufooter a:hover{
+      color:#F60;
+	}  #contlogo{
+		width:30%;
+		height:100px;
+		text-align:center;
+		color:#FFF;
+		position:absolute;
+      margin-left:40%;
+	  margin-top:-120px;
+	  padding-top:-50px;
+		}
+	#logofooter{
+		width:100%;
+		margin-top:5px;
+		height:100px;
+		} #regresar1{
+			display:none;
+		border-radius:5px;
+		margin-left:45%;
+		text-decoration:none;
+		background-color:#03C;
+		color:#FFF;
+		width:auto;
+		height:auto;}#regresar1:hover{
+			background-color:#FFF;
+		}#regresar3{
+			display:none;
+		border-radius:5px;
+		margin-left:50%;
+		text-decoration:none;
+		background-color:#03C;
+		color:#FFF;
+		width:auto;
+		height:auto;}#regresar3:hover{
+			background-color:#FFF;
+		color:#03C;}
+		
+	/**************************seccion inicio*************************/
+	#titinicio{
+		color:#F60;
+		text-align:center;
+		font-size:20px;
+	}#textoinicio{
+		margin:auto;
+		width:80%;
+		color:#000;
+		text-align:justify;
+		font-size:10px;
+	} hr{
+		margin-left:0px;
+	}
+	
+	#titubicacion{
+		margin-left:40%;
+		color:#009;
+		font-size:20px;
+	} #mapa{
+		width:80%;
+		height:250px;
+		margin-left:10%;
+	} 
+	#contimagen{
+		background-image:url(../img/beard-2286440__340.jpg);
+		background-attachment:scroll;
+		background-position:center center;
+		background-size:100% 100%;
+		width:80%;
+		height:250px;
+		margin-left:10%;
+		margin-top:20px;
+	}#colornegro{
+		width:100%;
+		height:50px;
+		margin-top:0px;
+		padding-top:200px;
+		background-color:rgba(0,0,0,0.5);
+	}#titcarreras{
+		margin-left:25%;
+		margin-top:-190px;
+		position:absolute;
+		font-size:20px;
+		color:#FFF;
+	}
+	
+	 #fondocarreras{
+		text-align:left;
+		overflow:hidden;
+		color:#FFF;
+		width:100%;
+		opacity:1;
+		font-size:10px;
+		height:auto;
+		margin-left:0px;
+		margin-top:-60px;
+		background-color:#F60;
+		transition:2s;
+	}
+
+	
+	/*************************************************/
+	
+	/*********************************** seccion acerca de ****************************************/
+   #mision{
+		width:30%;
+		height:auto;
+		margin-left:2%;
+		opacity:1;
+		font-size:10px;
+		text-align:center;
+		text-align:justify;
+		background-color:#03C;
+		float:left;
+		color:#FFF;
+		transition:2s;
+	} 
+	#mision h1{
+		text-align:center;
+	}
+	 #mision p{
+		width:80%;
+		margin-left:10%;   
+	}
+	#vision{
+		width:30%;
+		height:auto;
+		opacity:1;
+		transition:2s;
+		font-size:10px;
+		margin-left:3%;
+		text-align:center;
+		text-align:justify;
+		background-color:#F60;
+		float:left;
+		color:#FFF;
+	} 	
+	#vision h1{
+		text-align:center;
+	}
+	#vision p{
+		width:80%;
+		margin-left:10%;   
+	} 
+	#modeloacademico{
+		width:30%;
+		height:auto;
+		opacity:1;
+		transition:2s;
+		font-size:10px;
+		margin-left:68%;
+		text-align:center;
+		text-align:justify;
+		padding-top:10px;
+		background-color:#090;
+		color:#FFF;
+	}  
+	#modeloacademico h1{
+		text-align:center;
+	}
+	#modeloacademico p{
+		width:80%;
+		margin-left:10%;   
+	}
+	
+	/****************************** oferta educativa *******************************/
+		.contofertaeducativa{
+			width:100%;
+			height:300px;
+		}
+	#titoferta{
+		text-align:center;
+		font-size:20px;
+		color:#F60;}
+		#titobjetivo{
+		margin-left:20px;
+		font-size:15px;
+		color:#F60;}
+	   #textooferta p{
+		   width:80%;
+		   margin-top:-30px;
+		   margin-left:50px;
+		   font-size:15px;
+		   text-align:justify;
+	   }
+	   
+	   #imgbachillerato{
+		   display:none;
+		   width:30%;
+		   margin-left:5%;
+		   height:300px;
+		   background-image:url(../img/slide6.jpg);
+		   background-position:center center;
+		   float:left;
+		   background-size:100% 100%;
+		   	-webkit-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+background-color:#009;
+	   }  #titbachillerato{
+		   display:none;
+		   width:100%;
+		   height:auto;
+		   margin-top:-1px;
+		   font-size:25px;
+		   text-align:center;
+		   color:#FFF;
+		   background-color:#06C;
+	   } #fondnegrobach{
+		   display:none;
+		   width:100%;
+		   height:300px;
+		    transition:2s;
+		   background-color:rgba(0,0,0,0.5);
+	   } #fondnegrobach:hover{
+		   display:none;
+		   width:100%;
+		   height:300px;
+		   background-color:rgba(0,0,0,1);
+		   transition:2s;
+	   }
+	    #imgbachillerato #fondnegrobach a{
+			display:none;
+		   margin-left:35%;
+		   width:40%;
+		   height:auto;
+		   text-decoration:none;
+		   background-color:#F60;
+		   font-size:20px;
+		   color:#FFF;
+		   border-radius:5px;
+	   }  #imgbachillerato #fondnegrobach a:hover{
+		   display:none;
+		   margin-left:35%;
+		   width:40%;
+		   height:auto;
+		   text-decoration:none;
+		   background-color:#FFF;
+		   font-size:20px;
+		   color:#F60;
+		   border-radius:5px;
+	   } #materias{
+		   display:none;
+		   width:100%;
+		   height:100px;
+		   margin-top:50px;
+		   transition:2s;
+		   color:#FFF;
+		   background-color:#F60;
+	   } #materias ul{
+		   display:none;
+		   margin-top:-15px;
+	   }
+	   
+	     #imglicenciaturas{
+			 display:none;
+		   width:30%;
+		   margin-left:10px;
+		   float:left;
+		   height:300px;
+		   background-image:url(../img/sistemas-opt.jpg);
+		   background-position:center center;
+		   background-size:100% 100%;
+		   	-webkit-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+background-color:#009;
+	   }#titlicenciaturas{
+		   display:none;
+		   width:100%;
+		   height:auto;
+		   margin-top:-1px;
+		   font-size:25px;
+		   text-align:center;
+		   color:#FFF;
+		   background-color:#06C;
+	   }  #fondnegrolic{
+		   display:none;
+		   width:100%;
+		     transition:2s;
+		   height:300px;
+		   background-color:rgba(0,0,0,0.5);
+	   } #fondnegrolic:hover{
+		   display:none;
+		   width:100%;
+		     transition:2s;
+		   height:300px;
+		   background-color:rgba(0,0,0,1);
+	   }  #imglicenciaturas #fondnegrolic a{
+		   display:none;
+		   margin-left:35%;
+		   width:40%;
+		   height:auto;
+		   text-decoration:none;
+		   background-color:#F60;
+		   font-size:20px;
+		   color:#FFF;
+		   border-radius:5px;
+	   }  #imglicenciaturas #fondnegrolic a:hover{
+		   display:none;
+		   margin-left:35%;
+		   width:40%;
+		   height:auto;
+		   text-decoration:none;
+		   background-color:#FFF;
+		   font-size:20px;
+		   color:#F60;
+		   border-radius:5px;
+	   } #materias{
+		   display:none;
+		   width:100%;
+		   height:100px;
+		   margin-top:50px;
+		   transition:2s;
+		   font-size:13px;
+		   color:#FFF;
+		   background-color:#F60;
+	   } #materias p{
+		   display:none;
+		   margin-top:-15px;
+	   }
+	  
+	     #imgmaestrias{
+			 display:none;
+		   width:30%;
+		   margin-left:10px;
+		   float:left;
+		   height:300px;
+		   background-image:url(../img/workplace-1245776__340.jpg);
+		   background-position:center center;
+		   background-size:100% 100%;
+		   	-webkit-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+background-color:#009;
+	   } #titmaestrias{
+		   display:none;
+		   width:100%;
+		   height:auto;
+		   margin-top:-1px;
+		   font-size:25px;
+		   text-align:center;
+		   color:#FFF;
+		   background-color:#06C;
+	   }  #fondnegroma{
+		   display:none;
+		   width:100%;
+		   transition:2s;
+		   height:300px;
+		   background-color:rgba(0,0,0,0.5);
+	   } #fondnegroma:hover{
+		   display:none;
+		   width:100%;
+		   transition:2s;
+		   height:300px;
+		   background-color:rgba(0,0,0,1);
+	   }
+	    #imgmaestrias #fondnegroma a{
+			display:none;
+		   margin-left:35%;
+		   width:40%;
+		   height:auto;
+		   text-decoration:none;
+		   background-color:#F60;
+		   font-size:20px;
+		   color:#FFF;
+		   border-radius:5px;
+	   }  #imgmaestrias #fondnegroma a:hover{
+		   display:none;
+		   margin-left:35%;
+		   width:40%;
+		   height:auto;
+		   text-decoration:none;
+		   background-color:#FFF;
+		   font-size:20px;
+		   color:#F60;
+		   border-radius:5px;}
+		   
+#titperfilegresado{
+	margin-top:-400px;
+		text-align:center;
+		font-size:20px;
+		color:#F60;}
+			#textoperfilegresado{
+	margin-top:100px;
+	margin-left:10%;
+		width:80%;
+		}
+		#textoperfilegresado p{
+	margin-top:10px;
+		text-align:center;
+		text-align:justify;
+		font-size:15px;
+		}
+		
+		
+		.titbachillerato{
+			margin-top:20px;
+		   font-size:20px;
+		   text-align:center;
+		   color:#F60;
+	   }  	#textobachillerato{
+	margin-top:20px;
+	margin-left:10%;
+		width:80%;
+		}
+		#textobachillerato p{
+	margin-top:10px;
+		text-align:center;
+		text-align:justify;
+		font-size:15px;
+		} 
+		#contbach{
+			width:100%;
+			display:inline-block;
+			}
+			#contadm{
+				width:100%;
+				}
+		#imgadministracion{
+			width:80%;
+			height:300px;
+			margin-left:10%;
+			background-image:url(../img/business-3167295__340.jpg);
+			background-attachment:scroll;
+			background-position:center center;
+			background-size:100% 100%;
+			} #fondadm{
+				width:100%;
+				margin-top:-20px;
+				background-color:rgba(0,0,0,0.5);
+				height:300px;
+				transition:2s;
+			}#fondadm h1{
+				text-align:center;
+				color:#FFF;
+			}
+			#fondadm:hover{
+				width:100%;
+				height:300px;
+					background-color:rgba(0,0,0,0.8);
+				transition:1s;
+			} #imgadministracion #fondadm #conttextadm{
+				width:100%;
+				height:170px;
+				color:#FFF;
+				opacity:0;
+				transition:1s;
+				transform:translateY(30%);
+				background-color:#F60;
+			}#imgadministracion #fondadm #conttextadm:hover{
+				text-align:center;
+				text-align:justify;
+				width:100%;
+				height:218px;
+				color:#FFF;
+				opacity:1;
+				transition:2s;
+				transform:translateY(10%);
+				background-color:#F60;
+			} #imgadministracion #fondadm #conttextadm p{
+				text-align:center;
+				margin-left:10%;
+				text-align:justify;
+				color:#FFF;
+				width:80%;
+			} #planadm{
+				width:80%;
+				margin-top:20px;
+					margin-left:10%;
+				height:300px;
+			}
+			
+			#continf{
+				width:100%;
+				margin-top:50px
+				}
+		#imginformatica{
+			width:80%;
+			height:300px;
+			margin-left:10%;
+			margin-top:20px;
+			background-image:url(../img/service-428539__340.jpg);
+			background-attachment:scroll;
+			background-position:center center;
+			background-size:100% 100%;
+			} #fondinf{
+				margin-top:-20px;
+				width:100%;
+				height:300px;
+				background-color:rgba(0,0,0,0.5);
+				transition:2s;
+			}#fondinf h1{
+				text-align:center;
+				color:#FFF;
+			}
+			#fondinf:hover{
+				width:100%;
+				height:300px;
+					background-color:rgba(0,0,0,0.8);
+				transition:1s;
+			} #imginformatica #fondinf #conttextinf{
+				width:100%;
+				height:170px;
+				color:#FFF;
+				opacity:0;
+				transition:1s;
+				transform:translateY(30%);
+				background-color:#F60;
+			}#imginformatica #fondinf #conttextinf:hover{
+				text-align:center;
+				text-align:justify;
+				width:100%;
+				height:218px;
+				color:#FFF;
+				opacity:1;
+				transition:2s;
+				transform:translateY(10%);
+				background-color:#F60;
+			} #imginformatica #fondinf #conttextinf p{
+				text-align:center;
+				margin-left:10%;
+				text-align:justify;
+				color:#FFF;
+				width:80%;
+			} #planinf{
+				margin-left:10%;
+				margin-top:20px;
+				width:80%;
+				height:300px;
+			}
+			
+			#contcarreras{
+				width:80%;
+				margin-left:10%;
+				height:auto;
+				display:inline-block;
+				}
+			
+			#contcarreras h1{		   
+		text-align:center;
+		font-size:25px;
+		color:#F60;} 
+		#fondonegrocarreras{
+			width:100%;
+			height:250px;
+			background-color:rgba(0,0,0,0.5);
+			transition:2s;
+		} #fondonegrocarreras:hover{
+			width:100%;
+			height:250px;
+			background-color:#06C;
+			transition:1s;
+		}
+		
+
+	   #contcarreras #licadministracion{
+				width:80%;
+				height:250px;
+				margin-left:10%;
+				background-image:url(../img/business-3167295__340.jpg);
+				background-attachment:scroll;
+				background-position:center center;
+				background-size:100% 100%;
+				-webkit-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+background-color:#009;
+				} #contcarreras #licadministracion #fondonegrocarreras h4{
+					margin-top:0px;
+					text-align:center;
+					width:100%;
+					background-color:#F90;
+					color:#FFF;
+				}  #contcarreras #licadministracion #fondonegrocarreras p{
+					text-align:center;
+					text-align:justify;
+					width:80%;
+					height:250px;
+					color:#FFF;
+					opacity:0;
+					transition:1s;
+					font-size:10px;
+				} #contcarreras #licadministracion #fondonegrocarreras p:hover{
+					text-align:center;
+					text-align:justify;
+					margin-left:10%;
+					transition:1S;
+					width:80%;
+					color:#FFF;
+					opacity:1;
+					font-size:10px;
+				}
+				
+				
+				#contcarreras #liccontaduria{
+				width:80%;
+				height:250px;
+				margin-left:10%;
+				background-image:url(../img/beard-2286440__340.jpg);
+				background-attachment:scroll;
+				background-position:center center;
+				background-size:100% 100%;
+				-webkit-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+background-color:#009;
+				} #contcarreras #liccontaduria h4{
+					margin-top:0px;
+					text-align:center;
+					width:100%;
+				background-color:#F90;
+					color:#FFF;
+				}#contcarreras #liccontaduria #fondonegrocarreras p{
+					text-align:center;
+					text-align:justify;
+					width:80%;
+					height:250px;
+					color:#FFF;
+					opacity:0;
+					transition:1s;
+					font-size:10px;
+				} #contcarreras #liccontaduria #fondonegrocarreras p:hover{
+					text-align:center;
+					text-align:justify;
+					margin-left:10%;
+					transition:1S;
+					width:80%;
+					color:#FFF;
+					opacity:1;
+					font-size:10px;
+				}
+				
+				
+				#contcarreras #licpsicologia{
+				width:80%;
+				height:250px;
+				margin-left:10%;
+				background-image:url(../img/entrepreneur-593358__340.jpg);
+				background-attachment:scroll;
+				background-position:center center;
+				background-size:100% 100%;
+				-webkit-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+background-color:#009;
+				} #contcarreras #licpsicologia h4{
+					margin-top:0px;
+					text-align:center;
+					width:100%;
+					background-color:#F90;
+					color:#FFF;
+				}#contcarreras #licpsicologia #fondonegrocarreras p{
+					text-align:center;
+					text-align:justify;
+					width:80%;
+						height:250px;
+					color:#FFF;
+					opacity:0;
+					transition:1s;
+					font-size:10px;
+				} #contcarreras #licpsicologia #fondonegrocarreras p:hover{
+					text-align:center;
+					text-align:justify;
+					margin-left:10%;
+					transition:1S;
+					width:80%;
+					color:#FFF;
+					opacity:1;
+					font-size:10px;
+				}
+			
+				#contcarreras #licderecho{
+				width:80%;
+				height:250px;
+				margin-left:10%;
+				background-image:url(../img/club-2492011__340.jpg);
+				background-attachment:scroll;
+				background-position:center center;
+				background-size:100% 100%;
+				-webkit-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+background-color:#009;
+				} #contcarreras #licderecho h4{
+					margin-top:0px;
+					text-align:center;
+					width:100%;
+					background-color:#F90;
+					color:#FFF;
+				} #contcarreras #licderecho #fondonegrocarreras p{
+					text-align:center;
+					text-align:justify;
+					width:80%;
+						height:250px;
+					color:#FFF;
+					opacity:0;
+					transition:1s;
+					font-size:10px;
+				} #contcarreras #licderecho #fondonegrocarreras p:hover{
+					text-align:center;
+					text-align:justify;
+					margin-left:10%;
+					transition:1S;
+					width:80%;
+					color:#FFF;
+					opacity:1;
+					font-size:10px;
+				}
+				
+				
+				
+				#contcarreras #licpedagogia{
+				width:80%;
+				height:250px;
+				margin-left:10%;
+				background-image:url(../img/evita-estos-comentarios-con-los-maesrtos-de-tu-hija-.jpg);
+				background-attachment:scroll;
+				background-position:center center;
+				background-size:100% 100%;
+				-webkit-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+background-color:#009;
+				} #contcarreras #licpedagogia h4{
+					margin-top:0px;
+					text-align:center;
+					width:100%;
+				background-color:#F90;
+					color:#FFF;
+				} #contcarreras #licpedagogia #fondonegrocarreras p{
+					text-align:center;
+					text-align:justify;
+					width:80%;
+						height:250px;
+					color:#FFF;
+					opacity:0;
+					transition:1s;
+					font-size:10px;
+				} #contcarreras #licpedagogia #fondonegrocarreras p:hover{
+					text-align:center;
+					text-align:justify;
+					margin-left:10%;
+					transition:1S;
+					width:80%;
+					color:#FFF;
+					opacity:1;
+					font-size:10px;
+				}
+				
+				#contcarreras #licsistemascomputacionales{
+				width:80%;
+				height:250px;
+				margin-left:10%;
+				float:left;
+				background-image:url(../img/work-731198__340.jpg);
+				background-attachment:scroll;
+				background-position:center center;
+				background-size:100% 100%;
+				-webkit-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+background-color:#009;
+				} #contcarreras #licsistemascomputacionales h4{
+					margin-top:0px;
+					text-align:center;
+					width:100%;
+					background-color:#F90;
+					color:#FFF;
+				}#contcarreras #licsistemascomputacionales #fondonegrocarreras p{
+					text-align:center;
+					text-align:justify;
+					width:80%;
+						height:250px;
+					color:#FFF;
+					opacity:0;
+					transition:1s;
+					font-size:10px;
+				} #contcarreras #licsistemascomputacionales #fondonegrocarreras p:hover{
+					text-align:center;
+					text-align:justify;
+					margin-left:10%;
+					transition:1S;
+					width:80%;
+					color:#FFF;
+					opacity:1;
+					font-size:10px;
+				}
+				
+				#contcarreras #liccriminalistica{
+				width:80%;
+				height:250px;
+				margin-left:10%;
+				float:left;
+				background-image:url(../img/police-862341__340.jpg);
+				background-attachment:scroll;
+				background-position:center center;
+				background-size:100% 100%;
+				-webkit-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+background-color:#009;
+				} #contcarreras #liccriminalistica h4{
+					margin-top:0px;
+					text-align:center;
+					width:100%;
+					background-color:#F90;
+					color:#FFF;
+				}#contcarreras #liccriminalistica #fondonegrocarreras p{
+					text-align:center;
+					text-align:justify;
+					width:80%;
+						height:250px;
+					color:#FFF;
+					opacity:0;
+					transition:1s;
+					font-size:10px;
+				} #contcarreras #liccriminalistica #fondonegrocarreras p:hover{
+					text-align:center;
+					text-align:justify;
+					margin-left:10%;
+					transition:1S;
+					width:80%;
+					color:#FFF;
+					opacity:1;
+					font-size:10px;
+				}
+				
+				 #contcarreras #licmercadotecnia{
+				width:80%;
+				height:250px;
+				margin-left:10%;
+				float:left;
+				background-image:url(../img/digital-marketing-1433427__340.jpg);
+				background-attachment:scroll;
+				background-position:center center;
+				background-size:100% 100%;
+				-webkit-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+background-color:#009;
+				} #contcarreras #licmercadotecnia h4{
+					margin-top:0px;
+					text-align:center;
+					width:100%;
+					background-color:#F90;
+					color:#FFF;
+				} #contcarreras #licmercadotecnia #fondonegrocarreras p{
+					text-align:center;
+					text-align:justify;
+					width:80%;
+						height:250px;
+					color:#FFF;
+					opacity:0;
+					transition:1s;
+					font-size:10px;
+				} #contcarreras #licmercadotecnia #fondonegrocarreras p:hover{
+					text-align:center;
+					text-align:justify;
+					margin-left:10%;
+					transition:1S;
+					width:80%;
+					color:#FFF;
+					opacity:1;
+					font-size:10px;
+				}
+	
+	        #contgeneralmaestrias{
+				width:90%;
+				margin-left:5%;
+				height:1650px;
+			}
+	        #contgeneralmaestrias h1{		   
+		text-align:center;
+		font-size:25px;
+		color:#F60;} 
+		#contgeneralmaestrias p{		   
+		text-align:center;
+		text-align:justify;
+		font-size:15px;
+		} 
+		#contmaestrias{
+		  width:100%;
+		  height:500px;
+		  margin-left:10%;
+		  display:inline-block;
+		} 
+		#contmaestria1{
+			width:80%;
+			height:auto;
+			background-color:#F60;
+			margin-left:0%;
+			-webkit-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+		} #maestriaeducacion{
+			width:100%;
+			height:200px;
+			background-image:url(../img/writing-1149962__340.jpg);
+			background-attachment:scroll;
+			background-position:center center;
+			background-size:100% 100%;
+		} #maestriaeducacion h1{
+			background-color:#06C;
+			color:#FFF;
+			width:100%;
+			margin-top:-1px;
+			text-decoration:none;
+			font-size:20px;
+			}  
+		 #infmaestria1{
+			width:100%;
+			height:auto;
+		} #infmaestria1 p{
+			width:80%;
+			font-size:10px;
+			color:#FFF;
+			margin-left:10%;
+		} 
+		
+			#contmaestria2{
+			width:80%;
+			height:auto;
+				background-color:#06C;
+			margin-left:0%;
+			-webkit-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+		}
+		 #maestriajuicios{
+			width:100%;
+			height:200px;
+			background-image:url(../img/courtroom-898931__340.jpg);
+			background-attachment:scroll;
+			background-position:center center;
+			background-size:100% 100%;
+		}#maestriajuicios h1{
+			background-color:#06C;
+			color:#FFF;
+			width:100%;
+			margin-top:-1px;
+			text-decoration:none;
+			font-size:15px;
+			}
+		 #infmaestria2{
+			width:100%;
+			height:auto;
+		} #infmaestria2 p{
+			width:80%;
+			font-size:10px;
+			margin-left:10%;
+			color:#FFF;
+		}
+		
+			#contmaestria3{
+			width:80%;
+			height:auto;
+				background-color:#F60;
+			margin-left:0%;
+			-webkit-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+		}
+		 #maestriarecursos{
+			width:100%;
+			height:200px;
+			background-image:url(../img/men-1979261__340.jpg);
+			background-attachment:scroll;
+			background-position:center center;
+			background-size:100% 100%;
+		}  #maestriarecursos h1{
+			background-color:#06C;
+			color:#FFF;
+			width:100%;
+			margin-top:-1px;
+			text-decoration:none;
+			font-size:15px;
+			}
+		
+		#infmaestria3{
+			width:100%;
+			height:auto;
+		} #infmaestria3 p{
+			width:80%;
+			font-size:10px;
+			margin-left:10%;
+			color:#FFF;
+		}
+		
+			#contmaestria4{
+			width:80%;
+			height:auto;
+				background-color:#06C;
+			margin-left:0%;
+			-webkit-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.75);
+		}
+		 #maestriaadministracion{
+			width:100%;
+			height:200px;
+			background-image:url(../img/business-3152586__340.jpg);
+			background-attachment:scroll;
+			background-position:center center;
+			background-size:100% 100%;
+		} #maestriaadministracion h1{
+			background-color:#06C;
+			color:#FFF;
+			width:100%;
+			margin-top:-1px;
+			text-decoration:none;
+			font-size:15px;
+			}
+		 #infmaestria4{
+			width:100%;
+			height:auto;
+		} #infmaestria4 p{
+			width:80%;
+			margin-left:10%;
+			font-size:10px;
+			color:#FFF;
+		}
+	
+	
+	
+	
+	
+/************************************* seccion contacto****************/
+		#titcontacto{
+			text-align:center;
+			color:#F60;
+			font-size:25px;
+		} #mapacont{
+			width:80%;
+		height:500px;
+		margin-left:10%;
+			} #telefonosycorreo{
+				width:80%;
+				margin-left:10%;
+				height:auto;
+				text-align:center;
+				background-color:#FFF;
+			}
